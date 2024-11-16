@@ -1,0 +1,122 @@
+/* Reset and base styles */
+* {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(204, 204, 214);
+  font-family: 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+}
+
+.wrapper {
+  width: 100%;
+  height: 100vh; /* Make the wrapper fill the entire viewport height */
+  background-color: rgb(22, 21, 22);
+  opacity: 1.0;
+  color: rgb(97, 73, 89);
+  border: #15282e inset 10px;
+  border-radius: 10px;
+  padding: 20px 40px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-container {
+  display: flex;
+  flex-direction: row; /* Change to column for vertical stacking */
+  align-items: center;
+  text-align: center;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.header {
+  font-size: 35px;
+  margin: 20px 0;
+  width: 80%;
+  text-align: center;
+  color: rgb(155, 30, 30);
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.gallery {
+  margin: 20px 0;
+  width: 20%;
+  text-align: right;
+}
+
+.gallery img {
+  width: 100px; /* Adjust image size */
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.navbarItem {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+  width: 100%;
+  outline: groove green;
+}
+
+.navbarItem button {
+  max-width: 100%;
+  background-color: rgb(255, 255, 255);
+  border: none;
+  padding: 10px 20px;
+  margin: auto;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.navbarItem button:hover {
+  background-color: rgb(200, 200, 200);
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.paragraph {
+  color: rgb(112, 48, 48);
+  font-size: large;
+  text-transform: uppercase;
+  
+}
+
+ul li {
+  margin: 10px 0;
+  font-size: 1rem;
+}
+
+.contact, .about {
+  background-color: rgb(255, 250, 250);
+  color: rgb(126, 69, 96);
+  border: #15282e double 2px;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 8px;
+  width: 100%;
+}
+
+.home{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
